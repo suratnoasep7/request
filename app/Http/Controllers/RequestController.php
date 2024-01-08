@@ -69,7 +69,7 @@ class RequestController extends Controller
             );
             RequestsDetail::create($data);
         }
-        return redirect()->route('request.index')->with('message', 'Product has been created');
+        return redirect()->route('request.index')->with('message', 'Request has been created');
     }
 
     /**
